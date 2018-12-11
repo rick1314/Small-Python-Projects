@@ -2,10 +2,10 @@ import tweepy
 import time
 from random import *
 
-consumer_key = '5kR6ueXmXUTKFVy75yZNbvVBn'
-consumer_secret = 'rssISPgd1qqsWav4pOdU39avvExEqhm5EFeE4l2w8mtC2kNWf8'
-access_token = '1069593812996108288-WXDAO4Sm7eu9Fhj8g1dRrnPMgxGoxq'
-access_token_secret = 'U65eqaQuk4HTNSuNzrWph9EvUjsMv60MYCpcKJuJyK1eu'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
